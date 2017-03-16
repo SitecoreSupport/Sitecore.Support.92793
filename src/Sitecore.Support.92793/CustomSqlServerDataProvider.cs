@@ -14,6 +14,7 @@
     {
         public CustomSqlServerDataProvider(string connectionString) : base(connectionString)
         {
+
         }
 
         private bool IsLastVersionLanguage(ItemDefinition itemDefinition, VersionUri version, CallContext context)
